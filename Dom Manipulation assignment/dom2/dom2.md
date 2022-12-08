@@ -12,7 +12,7 @@
 
 ### code
 
- const array1=document.querySelectorAll(".as-imagegrid-item-title .a11y")
+     const array1=document.querySelectorAll(".as-imagegrid-item-title .a11y")
         array1.forEach(e => {
 
              e.innerText="";
