@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="you" >
+        <section class="parent">Question1</section>
+        <section class="parent">Question2</section>
+        <section class="parent">Question3</section>
+        <section class="parent">Question4</section>
+        
+        </nav>
+        <script>
+           const questions = document.querySelector(".you");
+         const section1 = document.createElement('section');
+         section1.className="parent";
+         const tag=document.createElement('h3');
+         section1.appendChild(tag);
+         tag.textContent='Question5';
+         questions.appendChild(section1);
+        
+
+         
+        </script>
+    
+</body>
+</html>

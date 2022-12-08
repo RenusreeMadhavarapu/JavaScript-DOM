@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myList" class="languages">
+        <a href="#cnc">telugu</a>
+        <a href="#cnc">hindi</a>
+        <a href="#cnc">english</a>
+        <a href="#cnc">marathi</a>
+        <a href="#cnc">punjabi</a>
+        <a href="#cnc">gujarati</a>
+    </div>
+
+    <script>
+       const list = document.getElementById("SIvCob");
+  let total=list.children.length
+  console.log(total)
+  for (let i=0;i<total/2;i++){
+
+    list.removeChild(list.children[i]);
+  }
+    </script>
+</body>
+</html>

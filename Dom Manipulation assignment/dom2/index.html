@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span class="as-imagegrid-item-title">iPhone <span class="a11y">Support</span></span>
+    <span class="as-imagegrid-item-title">Mac <span class="a11y">Support</span></span>
+    <span class="as-imagegrid-item-title">iPad <span class="a11y">Support</span></span>
+    <span class="as-imagegrid-item-title">Watch <span class="a11y">Support</span></span>
+    <span class="as-imagegrid-item-title">Airpods <span class="a11y">Support</span></span>
+    <span class="as-imagegrid-item-title">Music <span class="a11y">Support</span></span>
+    <span class="as-imagegrid-item-title">Tv <span class="a11y">Support</span></span>
+    <script>
+        const array1=document.querySelectorAll(".as-imagegrid-item-title .a11y")
+        array1.forEach(e => {
+
+             e.innerText="";
+           
+        });
+     const array2 =document.querySelectorAll(".as-imagegrid-item-title")
+     const final=[];
+
+
+        array2.forEach(element => {
+
+            final.push(element.innerText);
+
+            
+        });
+        console.log(final);
+     
+     
+    </script>
+</body>
+</html>
+
+ 
