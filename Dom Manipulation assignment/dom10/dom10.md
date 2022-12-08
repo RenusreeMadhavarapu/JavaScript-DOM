@@ -19,10 +19,10 @@
 ### code
 
 
-const list = document.querySelector(".login-btn-text")
- list.addEventListener('mouseover' ,myFun)
+    const list = document.querySelector(".login-btn-text")
+    list.addEventListener('mouseover' ,myFun)
 
-
-function myFun(){
-document.querySelectorAll(".login-btn-text")[1].style.backgroundColor="red";
-}
+  
+     function myFun(){
+        document.querySelectorAll(".login-btn-text")[1].style.backgroundColor="red";
+     }
