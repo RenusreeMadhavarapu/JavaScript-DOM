@@ -18,5 +18,5 @@
 
 ### code
 
-document.querySelector(" .display-heading-1").style.color="#b1361e";
-document.querySelector(" .display-heading-1").style.fontFamily="monospace";
+    document.querySelector(" .display-heading-1").style.color="#b1361e";
+    document.querySelector(" .display-heading-1").style.fontFamily="monospace";
