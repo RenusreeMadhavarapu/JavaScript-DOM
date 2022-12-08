@@ -18,4 +18,4 @@ Target the top description and change “Matching developers with great companie
 
 
 ### code
-document.querySelector(".fl-heading .fl-heading-text").innerHTML="JSBOOTCAMP" 
+    document.querySelector(".fl-heading .fl-heading-text").innerHTML="JSBOOTCAMP" 
