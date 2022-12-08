@@ -17,4 +17,4 @@
 ![Output](./Pic39.png)
 
 ### code
-document.querySelector(".wide .desc").style.color="orange"
+    document.querySelector(".wide .desc").style.color="orange"
