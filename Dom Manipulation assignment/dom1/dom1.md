@@ -5,8 +5,9 @@
     - Query Selctory, Inner HTML
 
 ### Sample Image
+![Pic1](https://user-images.githubusercontent.com/110158807/206359541-48e20aaa-ace3-4371-bfb7-c5ea05dc83e4.png)
 
-![Sample One](./Pic1.png)
+
 
 ### Tasks
 
@@ -14,7 +15,8 @@
 
 ### Output
 
-![Output](./Pic2.png)
+![Pic2](https://user-images.githubusercontent.com/110158807/206359547-c84e9418-1ffb-421b-b0c6-dfbe74553b63.png)
+
 
 ### Code
 
