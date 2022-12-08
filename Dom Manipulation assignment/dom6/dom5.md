@@ -18,8 +18,8 @@
 
 ### code
 
-document.querySelector(".searchinput___19uW0").addEventListener("click",search);
+    document.querySelector(".searchinput___19uW0").addEventListener("click",search);
 
-function search() {
-document.querySelector(".searchinput___19uW0").style.backgroundColor ="red";
-}
+    function search() {
+    document.querySelector(".searchinput___19uW0").style.backgroundColor ="red";
+    }
