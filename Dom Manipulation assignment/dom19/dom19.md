@@ -18,5 +18,5 @@
 
 ### code
 
-const list = document.querySelector(".logo")
-console.log(list.src) 
+    const list = document.querySelector(".logo")
+    console.log(list.src) 
