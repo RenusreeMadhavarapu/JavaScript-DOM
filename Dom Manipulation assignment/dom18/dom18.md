@@ -18,4 +18,4 @@
 
 ### code
 
-document.querySelector(".p-footer" ).style.backgroundColor="orange" 
+    document.querySelector(".p-footer" ).style.backgroundColor="orange" 
