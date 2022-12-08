@@ -18,4 +18,4 @@
 
 ### code
 
-document.querySelector(".ps-top .ps-title" ).style.textAlign="right" 
+    document.querySelector(".ps-top .ps-title" ).style.textAlign="right" 
