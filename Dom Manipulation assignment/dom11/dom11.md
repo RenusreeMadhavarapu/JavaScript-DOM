@@ -19,7 +19,7 @@
 ### code
 
 
-const list =document.querySelector(".logo.gtag")
+     const list =document.querySelector(".logo.gtag")
 
        const image = document.createElement("img")
            image.src="https://ineuron.ai/images/ineuron-logo.png";
